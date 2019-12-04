@@ -1,0 +1,43 @@
+*.class
+
+# package file
+*.war
+*.ear
+
+# maven ignore
+target/
+
+### IntelliJ IDEA ###
+.idea
+*.ipr
+*.iml
+*.iws
+
+
+# temp file
+
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Storte
+Thumbs.db
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+/logs
